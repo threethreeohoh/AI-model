@@ -5,6 +5,7 @@ from .router import prediction_router
 
 app = FastAPI()
 
+# Router
 app.include_router(prediction_router.router)
 
 # Exception
