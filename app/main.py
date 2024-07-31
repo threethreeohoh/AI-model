@@ -31,6 +31,7 @@ async def asgi_exception_middleware(request: Request, call_next):
 
 # Cors
 origins = [
+    "http://43.200.165.138:3000",
     "http://127.0.0.1:8000",
     "http://127.0.0.1:8080",
     "http://localhost:8000",
