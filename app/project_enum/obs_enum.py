@@ -24,7 +24,7 @@ class ObsEnum(Enum):
         "observatoryName": "마라도",
 		"longitude": "126.2679",
 		"latitude": "33.1221",
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "include": columns_5,
         "path_to_model": "app/trained_models/726_esm_model.pkl"
 
@@ -36,7 +36,7 @@ class ObsEnum(Enum):
 		"longitude": "126.4317",
 		"latitude": "33.4769",
         "include":columns_1,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/864_esm_model.pkl",
     }
     # 대정
@@ -46,7 +46,7 @@ class ObsEnum(Enum):
 		"longitude": "126.2263",
 		"latitude": "33.2410",
         "include":columns_1,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/793_esm_model.pkl",
     }
     # 중문
@@ -56,7 +56,7 @@ class ObsEnum(Enum):
 		"longitude": "126.4060",
 		"latitude": "33.2494",
         "include":columns_2,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/328_esm_model.pkl",
     }
     # 제주남원
@@ -66,7 +66,7 @@ class ObsEnum(Enum):
 		"longitude": "126.7044",
 		"latitude": "33.2772",
         "include":columns_2,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/780_esm_model.pkl",
     }
     # 대흘
@@ -76,7 +76,7 @@ class ObsEnum(Enum):
 		"longitude": "126.6495",
 		"latitude": "33.5008",
         "include":columns_3,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/330_esm_model.pkl",
     }
     # 구좌
@@ -86,7 +86,7 @@ class ObsEnum(Enum):
 		"longitude": "126.8777",
 		"latitude": "33.5199",
         "include":columns_1,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/781_esm_model.pkl",
     }
     # 진달래밭
@@ -96,7 +96,7 @@ class ObsEnum(Enum):
 		"longitude": "126.5557",
 		"latitude": "33.3698",
         "include":columns_1,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/870_esm_model.pkl",
     }
     # 영실
@@ -106,7 +106,7 @@ class ObsEnum(Enum):
 		"longitude": "126.4964",
 		"latitude": "33.3483",
         "include":columns_1,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/869_esm_model.pkl",
     }
     # 서광
@@ -116,7 +116,7 @@ class ObsEnum(Enum):
 		"longitude": "126.3060",
 		"latitude": "33.3046",
         "include":columns_1,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/752_esm_model.pkl",
     }
     # 새별오름
@@ -126,7 +126,7 @@ class ObsEnum(Enum):
 		"longitude": "126.3599",
 		"latitude": "33.3623",
         "include":columns_1,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/883_esm_model.pkl",
     }
     # 어리목
@@ -136,7 +136,7 @@ class ObsEnum(Enum):
 		"longitude": "126.4959",
 		"latitude": "33.3930",
         "include":columns_4,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/753_esm_model.pkl",
     }
     # 월정
@@ -146,7 +146,7 @@ class ObsEnum(Enum):
 		"longitude": "126.7781",
 		"latitude": "33.5623",
 		"include": columns_5,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/861_esm_model.pkl",
     }
     # 제주가시리
@@ -156,7 +156,7 @@ class ObsEnum(Enum):
 		"longitude": "126.7336",
 		"latitude": "33.3854",
         "include":columns_2,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/890_esm_model.pkl",
     }
     # 애월
@@ -166,6 +166,6 @@ class ObsEnum(Enum):
 		"longitude": "126.3275",
 		"latitude": "33.4659",
         "include":columns_1,
-        "last_update": date(2024,7,2),
+        "last_update": date(2024,7,24),
         "path_to_model":"app/trained_models/893_esm_model.pkl",
     }
