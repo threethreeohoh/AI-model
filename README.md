@@ -1,12 +1,12 @@
 # ML Models for Project Rainfall
 
-### Purpose
+## Purpose
 
 Predicting possible rainfall of today, tomorrow and the day after tomorrow of the requested location from client
 
 ## Contributors
 
-<center>
+<div align="center">
 
 | ![Wooyong Jeong](https://github.com/jwywoo.png?size=300) | ![Yanghoon Ham](https://github.com/H-y-hoon.png?size=300) |
 |:-------------------------:|:-------------------------:|
@@ -15,27 +15,80 @@ Predicting possible rainfall of today, tomorrow and the day after tomorrow of th
 | **Wooyong Jeong: Woo**             | **Yanghoon Ham: Eric**            |
 | AI Developer             | AI Developer                 |
 
-</center>
+</div>
+
+## Tech Stack
+
+1. Development
+    - Model Implementation
+        - Google Colab
+        - Google Drive
+        - Scikit Learn
+        - Pandas
+        - Numpy
+    - Model Server Implementation
+        - FastAPI
+        - Joblib
+        - Pydantic
+2. Deployment
+    - EC2
+    - Nginx: Proxy and HTTPS(Let's Encrypt and CertBot)
+    - Docker
 
 ## Service Architecture: ML Model
 
-<center>
+<div align="center">
 
 ![Service Architecture](/static/project//model_architecture.png)
+</div>
 
-</center>
+## ML Models API Doc
+
+<div align="center">
+
+![ML Models API Docs](/static/project/api_docs_screenshot.png)
+</div>
+
+## Project Structure: ML Model
+
+```shell
+.
+├── .venv
+├── app/
+│   ├── core/
+│   │   └── config.py
+│   ├── crud/
+│   │   ├── classification_crud.py
+│   │   └── prediction_crud.py
+│   ├── project_enum/
+│   │   └── obs_enum.py
+│   ├── router/
+│   │   └── prediction_router.py
+│   ├── schema/
+│   │   ├── prediction_request_schema.py
+│   │   └── prediction_response_schema.py
+│   ├── trained_models/
+│   │   └── ..._esm_model.pkl
+│   └── main.py
+├── static
+├── .env
+├── .gitignore
+├── build_and_push.sh
+├── Dockerfile
+└── requirements.txt
+```
 
 ## Classification Model: Woo
 
 ### Model Screenshots
 
-<center>
+<div align="center">
 
 | ![Raining](static/woo_pics/classify_raining.png)| ![Not Raining](static/woo_pics/classify_not_raining.png) |
 |:-------------------------:|:-------------------------:|
 | **Raining**             | **Not Raining**            |
 
-</center>
+</div>
 
 ### Model Training Process & Hypothesis
 
