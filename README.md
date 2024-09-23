@@ -4,16 +4,16 @@
 
 Predicting possible rainfall of today, tomorrow and the day after tomorrow of the requested location from client
 
-## Contributors
+## Contributor
 
 <div align="center">
 
-| ![Wooyong Jeong](https://github.com/jwywoo.png?size=300) | ![Yanghoon Ham](https://github.com/H-y-hoon.png?size=300) |
-|:-------------------------:|:-------------------------:|
-| [jwywoo26@egmail.com](mailto:jwywoo26@gmail.com) | [이메일@example.com](mailto:이메일@example.com) |
-| [GitHub](https://github.com/jwywoo) | [GitHub](https://github.com/H-y-hoon) |
-| **Wooyong Jeong: Woo**             | **Yanghoon Ham: Eric**            |
-| AI Developer             | AI Developer                 |
+| ![Wooyong Jeong](https://github.com/jwywoo.png?size=300) |
+|:-------------------------:|
+| [jwywoo26@egmail.com](mailto:jwywoo26@gmail.com)|
+| [GitHub](https://github.com/jwywoo)|
+| **Wooyong Jeong: Woo**             |
+| AI Developer             |
 
 </div>
 
@@ -186,5 +186,3 @@ Predicting possible rainfall of today, tomorrow and the day after tomorrow of th
             ]
         }
         ```
-
-## Prediction Model : Eric
